@@ -12,13 +12,13 @@ The dataset contains sensor measurements from 100 aircraft engines recorded ever
 
 # Methodology
 The main steps followed are:
-. Data Loading and Preprocessing: Cleaning missing/error values, feature selection, normalization, adding RUL target column
-. Exploratory Data Analysis: Visualizing patterns, correlation analysis to understand degradation signals
-. Feature Engineering: Deriving temporal/lag features to capture trends over cycles
-.Model Development: RNN, CNN and other deep learning architectures for sequence forecasting
-.Hyperparameter Tuning: Grid search CV for optimal configurations
-.Model Evaluation: Performance metrics on test set of unseen engine instances
-.Results and Discussion: Analysis of prediction accuracies, strengths/limitations
+**Data Loading and Preprocessing:** Cleaning missing/error values, feature selection, normalization, adding RUL target column
+**Exploratory Data Analysis:** Visualizing patterns, correlation analysis to understand degradation signals
+**Feature Engineering:** Deriving temporal/lag features to capture trends over cycles
+**Model Development:** RNN, CNN and other deep learning architectures for sequence forecasting
+**Hyperparameter Tuning:** Grid search CV for optimal configurations
+**Model Evaluation:** Performance metrics on test set of unseen engine instances
+**Results and Discussion:** Analysis of prediction accuracies, strengths/limitations
 
 # Implementation
 The project is implemented in Python leveraging libraries like Pandas, NumPy, PyTorch, Keras and Scikit-learn. Jupyter Notebooks provide an interactive environment for EDA, model building and analysis.
